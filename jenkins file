@@ -5,7 +5,7 @@ pipeline{
 	  stages{
 	       stage('checkout'){
 		      steps{
-			    git 'https://github.com/anand7kumar65/testrepo'		
+			    git 'https://github.com/anand7kumar65/testrepo.git'		
 			      }
 		   }
 	  }
