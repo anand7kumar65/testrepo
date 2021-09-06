@@ -1,0 +1,12 @@
+pipeline{
+   agent {
+      label 'flipkart'
+	  }
+	  stages{
+	       stage('checkout'){
+		      steps{
+			    git 'https://github.com/anand7kumar65/testrepo'		
+			      }
+		   }
+	  }
+}
